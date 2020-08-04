@@ -1,5 +1,7 @@
 Download the whole project in the repository and run the exe file to see the scene.
 
+You can access the demonstration video here: https://www.bilibili.com/video/BV1d7411g7LN/
+
 *it’s important to know: please wait at least half a minute to load the program(even if it shows not responding). User control will be shown on the console but a thing to notice is that turn on particle system may make you dizzy.
 This is a scene under the sea with a swimming lantern fish (the yellow color one) and a coral sitting on the seabed. The lantern fish has a light source on its head which is a spot light facing down to the sand plane. The coral and the fish have their shadows on the sand panel. The shadows blend with the sand plane by alpha value of the shadow color. 
 To generate the shadow, a different way I did is using light source position in world space instead of light position in eye space. Also I adjusted the w coordinate of the light position to improve their realistic. Like the following line of code:
